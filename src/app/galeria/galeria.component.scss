@@ -1,0 +1,39 @@
+.container {
+  //display: block;
+  height: auto;
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.container .carrousel-fotos {
+  // position: absolute;
+  //display: flex;
+  position: relative;
+}
+
+.container .carrousel-fotos .imgItens {
+  margin: auto;
+  height: 500px;
+  width: 500px;
+  vertical-align: top;
+  display: block;
+  position: absolute;
+}
+
+.container .botoes-lado {
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+  z-index: 10;
+  text-align: center;
+  top: 50%;
+  margin-top: 490px;
+}
+
+.container .botoes-lado:hover {
+  background-color: #ddd;
+  color: black;
+}

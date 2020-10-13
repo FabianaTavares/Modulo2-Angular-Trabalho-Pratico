@@ -1,0 +1,25 @@
+<div class="container">
+  <h3>{{title}}</h3>
+  <div class="carrousel-fotos" *ngFor="let item of modalImagens; let i = index">
+    <div *ngIf="isValid">
+      <img id="mypicture" class="imgItens" [src]="item" [alt]="item">
+    </div>
+  </div>
+  <br />
+  <div class="botoes-lado" *ngIf="isValid">
+    foto {{currentImage }} de 5
+    <button [disabled]="currentImage <= 1" class="dot" type="button" (click)="showDiv(currentImage = 1)"> &laquo;
+    </button>
+    <button [disabled]="currentImage <= 1" class="dot" type="button" (click)="showDiv(currentImage - 1)"> &#8249;
+    </button>
+    <button [disabled]="currentImage >= 5" class="dot" type="button"
+      (click)="showDiv(currentImage + 1)">&#8250;</button>
+    <button [disabled]="currentImage >= 5" class="dot" type="button"
+      (click)="showDiv(currentImage = 5)">&raquo;</button>
+  </div>
+  <div *ngIf="!isValid">
+    <h1>Nenhuma Foto!</h1>
+  </div>
+</div>
+
+<ng-content></ng-content>
