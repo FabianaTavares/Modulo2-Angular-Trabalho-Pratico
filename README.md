@@ -16,9 +16,7 @@ Apesar de o curso fornecer o codigo fonte original aos alunos, procurei deixar o
 
 ## Ambiente de Produção
 
-1. Para visualizar o projeto rodando, basta acessar o link abaixo.
-
-[link do trabalho!](https://fabi-igti-angular-trabalho.web.app/)
+Para visualizar o projeto rodando, basta acessar o [link do trabalho!](https://fabi-igti-angular-trabalho.web.app/)
 
 ## Objetivos do Trabalho Prático
 
