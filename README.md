@@ -1,4 +1,4 @@
-# Descrição Trabalho Pratio de Angular - Galeria Fotos
+# Descrição Trabalho Prático de Angular - Galeria Fotos
 
 Bootcamp FrontEnd - IGTI 2020
 
