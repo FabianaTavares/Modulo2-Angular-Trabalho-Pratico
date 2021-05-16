@@ -1,5 +1,4 @@
-import { animate, AnimationBuilder, AnimationFactory, style } from '@angular/animations';
-import { Component, ElementRef, EventEmitter, Input, OnInit, Output, QueryList } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-galeria',
