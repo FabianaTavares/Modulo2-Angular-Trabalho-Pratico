@@ -1,4 +1,4 @@
-# Descrição Trabalho Prático de Angular - Galeria Fotos
+# Descrição Trabalho Prático de Angular - Galeria Fotos [![Build Status](https://travis-ci.org/FabianaTavares/Modulo2-Angular-Trabalho-Pratico.svg?branch=main)](https://travis-ci.org/FabianaTavares/Modulo2-Angular-Trabalho-Pratico)
 
 Bootcamp FrontEnd - IGTI 2020
 
