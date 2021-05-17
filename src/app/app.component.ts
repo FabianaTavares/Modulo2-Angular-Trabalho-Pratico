@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+  title = 'galeria-fotos';
+
   fotos = [
     './../assets/foto01.jpg',
     './../assets/foto2.jpg',

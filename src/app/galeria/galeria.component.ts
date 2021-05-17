@@ -19,15 +19,10 @@ export class GaleriaComponent implements OnInit {
   @Input() modalBotoes: string[];
   @Output() acaoBotao = new EventEmitter<number>();
 
-  constructor(
-  ) { }
-
   ngOnInit() {
-    console.log(this.modalImagens.length);
-    if (this.modalImagens.length > 0) {
+    if (undefined !== this.modalImagens && this.modalImagens.length) {
       this.isValid = true;
     } else {
-      console.log('outro Valor');
       this.isValid = false;
     }
   }
